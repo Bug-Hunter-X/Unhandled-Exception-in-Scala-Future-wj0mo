@@ -1,0 +1,3 @@
+# Unhandled Exception in Scala Future
+
+This example showcases a common pitfall in asynchronous programming with Scala Futures.  When an exception occurs within a Future, it's not immediately propagated, potentially leading to silent failures or difficult-to-debug issues.  The `bug.scala` file demonstrates this problem. The solution (`bugSolution.scala`) shows how to properly handle such exceptions using `recover` or `recoverWith`. 
